@@ -1,0 +1,18 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 3' test cases in the current suite                                        
+                                   Test Method: 'AdminPages.RuleEngine.FareRules.FareRulesTCs.ApproveFareRule'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "SearchBooking.json"". @07-08-2025 15:05:35.0227 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SearchBooking.json"". @07-08-2025 15:05:35.0230 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SearchBooking.json"". @07-08-2025 15:05:35.0232 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/SearchBooking.json". @07-08-2025 15:05:35.0234 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @07-08-2025 15:05:35.0237 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:35.0429 PM
+[ReportManager] Click "By.xpath: (//div[@class='action exception-buttons ng-star-inserted'])[1]". @07-08-2025 15:05:35.0497 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/FareRule.json"". @07-08-2025 15:05:35.0498 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/FareRule.json"". @07-08-2025 15:05:35.0498 PM
+[ReportManager] Type "Test Fare Rule" into "remarks...". @07-08-2025 15:05:35.0729 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:36.0078 PM
+[ReportManager] Click "Submit". @07-08-2025 15:05:36.0320 PM

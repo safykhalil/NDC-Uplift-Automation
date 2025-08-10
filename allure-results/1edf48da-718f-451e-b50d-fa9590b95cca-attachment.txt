@@ -1,0 +1,175 @@
+[INFO ] 2025-08-07 15:05:09.800 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231015[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-08-07 15:05:11.125 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2025-08-07 15:05:11.125 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-08-07 15:05:11.232 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-08-07 15:05:11.253 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-08-07 15:05:11.490 [main] Utils - [TestNG] Running:
+  C:\Users\Mahmoud\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2025-08-07 15:05:11.542 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-08-07 15:05:11.671 [main] ReportManager - Initializing Important Links...
+[INFO ] 2025-08-07 15:05:11.680 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-08-07 15:05:11.776 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of setup browse configuration method                                             
+                                           'AdminPages.RuleEngine.FareRules.FareRulesTCs.setupBrowse'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-08-07 15:05:11.801 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-08-07 15:05:11.819 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Mahmoud\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2025-08-07 15:05:11.820 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2025-08-07 15:05:11.821 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2025-08-07 15:05:14.702 [main] ReportManager - Aug 07, 2025 3:05:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-08-07 15:05:14.702 [main] ReportManager - WARNING: Unable to find CDP implementation matching 138
+[WARN ] 2025-08-07 15:05:14.703 [main] ReportManager - Aug 07, 2025 3:05:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2025-08-07 15:05:14.703 [main] ReportManager - WARNING: Unable to find version of CDP to use for 138.0.7204.184. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.13.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2025-08-07 15:05:14.709 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2025-08-07 15:05:14.766 [main] ReportManager - Initial window size: (1936, 1056)
+[INFO ] 2025-08-07 15:05:14.776 [main] ReportManager - Window size after SWD Maximize: (1936, 1056)
+[INFO ] 2025-08-07 15:05:14.917 [main] ReportManager - Window size after Toolkit: (1920, 1080)
+[INFO ] 2025-08-07 15:05:14.932 [main] ReportManager - Maximize window "New screen size is now: (1920, 1080)".
+[INFO ] 2025-08-07 15:05:14.958 [main] ReportManager - Target URL: "http://192.168.1.70"
+[INFO ] 2025-08-07 15:05:14.992 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2025-08-07 15:05:15.890 [main] ReportManager - Navigate to url "http://192.168.1.70".
+[INFO ] 2025-08-07 15:05:15.891 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of login configuration method                                                
+                                              'AdminPages.RuleEngine.FareRules.FareRulesTCs.login'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-08-07 15:05:15.894 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "FareRule.json"".
+[INFO ] 2025-08-07 15:05:15.895 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/FareRule.json"".
+[INFO ] 2025-08-07 15:05:15.896 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/FareRule.json"".
+[INFO ] 2025-08-07 15:05:15.898 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-08-07 15:05:16.117 [main] ReportManager - Type "E.saady" into "Username *".
+[INFO ] 2025-08-07 15:05:16.269 [main] ReportManager - Type "qqE6)Cxp6>B8" into "Password * Forgot Password?".
+[INFO ] 2025-08-07 15:05:16.481 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:16.580 [main] ReportManager - Click "Login".
+[INFO ] 2025-08-07 15:05:16.651 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 3' test cases in the current suite                                        
+                                   Test Method: 'AdminPages.RuleEngine.FareRules.FareRulesTCs.createFareRule'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-08-07 15:05:16.666 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "SearchBooking.json"".
+[INFO ] 2025-08-07 15:05:16.666 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SearchBooking.json"".
+[INFO ] 2025-08-07 15:05:16.667 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SearchBooking.json"".
+[DEBUG] 2025-08-07 15:05:17.105 [main] cache - Couldn't find template in cache for "codeblock.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-08-07 15:05:17.106 [main] cache - TemplateLoader.findTemplateSource("codeblock_en_US.ftl"): Not found
+[DEBUG] 2025-08-07 15:05:17.108 [main] cache - TemplateLoader.findTemplateSource("codeblock_en.ftl"): Not found
+[DEBUG] 2025-08-07 15:05:17.109 [main] cache - TemplateLoader.findTemplateSource("codeblock.ftl"): Found
+[DEBUG] 2025-08-07 15:05:17.109 [main] cache - Loading template for "codeblock.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Mahmoud/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/markup/codeblock.ftl"
+[DEBUG] 2025-08-07 15:05:17.345 [main] cache - Couldn't find template in cache for "codeblock.json.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-08-07 15:05:17.345 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en_US.ftl"): Not found
+[DEBUG] 2025-08-07 15:05:17.346 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en.ftl"): Not found
+[DEBUG] 2025-08-07 15:05:17.346 [main] cache - TemplateLoader.findTemplateSource("codeblock.json.ftl"): Found
+[DEBUG] 2025-08-07 15:05:17.346 [main] cache - Loading template for "codeblock.json.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Mahmoud/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/markup/codeblock.json.ftl"
+[INFO ] 2025-08-07 15:05:17.412 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-08-07 15:05:17.625 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:17.708 [main] ReportManager - Click "Rule Engine".
+[INFO ] 2025-08-07 15:05:19.266 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:19.454 [main] ReportManager - Click "Fare Rule Master".
+[INFO ] 2025-08-07 15:05:20.456 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:20.582 [main] ReportManager - Click "Add Fare Rules ".
+[INFO ] 2025-08-07 15:05:20.832 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:21.022 [main] ReportManager - Click "dropdown trigger".
+[INFO ] 2025-08-07 15:05:21.261 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:21.447 [main] ReportManager - Click "AirArbia".
+[INFO ] 2025-08-07 15:05:21.449 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/FareRule.json"".
+[INFO ] 2025-08-07 15:05:21.450 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/FareRule.json"".
+[INFO ] 2025-08-07 15:05:23.047 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/FareRule.json"".
+[INFO ] 2025-08-07 15:05:23.047 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/FareRule.json"".
+[INFO ] 2025-08-07 15:05:23.295 [main] ReportManager - Type "14/01/2040" into "Validity From *".
+[INFO ] 2025-08-07 15:05:23.679 [main] ReportManager - Type "14/01/2040" into "Validity To *".
+[INFO ] 2025-08-07 15:05:23.947 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:24.109 [main] ReportManager - Click "By.xpath: (//button[@type='button'][@tabindex='0'])[2]".
+[INFO ] 2025-08-07 15:05:24.347 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:24.459 [main] ReportManager - Click "By.xpath: (//span[@class='dropdown-arrow'])[1]".
+[INFO ] 2025-08-07 15:05:24.704 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:24.836 [main] ReportManager - Click "By.xpath: (//input[@type='checkbox'])[1]".
+[INFO ] 2025-08-07 15:05:25.079 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:25.261 [main] ReportManager - Click "By.xpath: (//span[@class='dropdown-arrow'])[2]".
+[INFO ] 2025-08-07 15:05:25.590 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:25.824 [main] ReportManager - Click "By.xpath: (//input[@type='checkbox'])[1]".
+[INFO ] 2025-08-07 15:05:25.824 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/FareRule.json"".
+[INFO ] 2025-08-07 15:05:25.825 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/FareRule.json"".
+[INFO ] 2025-08-07 15:05:26.190 [main] ReportManager - Type "ahmedRefat" into "fare Rule name *".
+[INFO ] 2025-08-07 15:05:26.191 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/FareRule.json"".
+[INFO ] 2025-08-07 15:05:26.192 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/FareRule.json"".
+[INFO ] 2025-08-07 15:05:26.550 [main] ReportManager - Type "Test Fare Rule" into "By.xpath: //div[@class='ql-editor ql-blank']".
+[INFO ] 2025-08-07 15:05:26.807 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:26.945 [main] ReportManager - Click "Send For Approval".
+[INFO ] 2025-08-07 15:05:31.973 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: createFareRule'
+[INFO ] 2025-08-07 15:05:31.973 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                        Finished Execution of Test Method: 'AdminPages.RuleEngine.FareRules.FareRulesTCs.createFareRule'                        
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-08-07 15:05:32.092 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 3' test cases in the current suite                                        
+                                   Test Method: 'AdminPages.RuleEngine.FareRules.FareRulesTCs.SearchFareRule'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-08-07 15:05:32.093 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "SearchBooking.json"".
+[INFO ] 2025-08-07 15:05:32.094 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SearchBooking.json"".
+[INFO ] 2025-08-07 15:05:32.094 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SearchBooking.json"".
+[INFO ] 2025-08-07 15:05:32.097 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-08-07 15:05:32.280 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:32.428 [main] ReportManager - Click "dropdown trigger".
+[INFO ] 2025-08-07 15:05:32.619 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:32.688 [main] ReportManager - Click "AirArbia".
+[INFO ] 2025-08-07 15:05:32.883 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:32.946 [main] ReportManager - Click "By.xpath: (//div[@class='p-radiobutton-box'])[1]".
+[INFO ] 2025-08-07 15:05:33.130 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:33.196 [main] ReportManager - Click "Search in grid".
+[INFO ] 2025-08-07 15:05:35.202 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: SearchFareRule'
+[INFO ] 2025-08-07 15:05:35.203 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                        Finished Execution of Test Method: 'AdminPages.RuleEngine.FareRules.FareRulesTCs.SearchFareRule'                        
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-08-07 15:05:35.224 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 3' test cases in the current suite                                        
+                                   Test Method: 'AdminPages.RuleEngine.FareRules.FareRulesTCs.ApproveFareRule'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-08-07 15:05:35.227 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "SearchBooking.json"".
+[INFO ] 2025-08-07 15:05:35.230 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SearchBooking.json"".
+[INFO ] 2025-08-07 15:05:35.232 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SearchBooking.json"".
+[INFO ] 2025-08-07 15:05:35.237 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-08-07 15:05:35.429 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:35.497 [main] ReportManager - Click "By.xpath: (//div[@class='action exception-buttons ng-star-inserted'])[1]".
+[INFO ] 2025-08-07 15:05:35.498 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/FareRule.json"".
+[INFO ] 2025-08-07 15:05:35.499 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/FareRule.json"".
+[INFO ] 2025-08-07 15:05:35.730 [main] ReportManager - Type "Test Fare Rule" into "remarks...".
+[INFO ] 2025-08-07 15:05:36.078 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-08-07 15:05:36.320 [main] ReportManager - Click "Submit".
+[INFO ] 2025-08-07 15:05:36.322 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: ApproveFareRule'
+[INFO ] 2025-08-07 15:05:36.323 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                        Finished Execution of Test Method: 'AdminPages.RuleEngine.FareRules.FareRulesTCs.ApproveFareRule'                        
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-08-07 15:05:36.341 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-08-07 15:05:36.342 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2025-08-07 15:05:36.343 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2025-08-07 15:05:36.343 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

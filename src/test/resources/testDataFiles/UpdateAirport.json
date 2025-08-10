@@ -1,0 +1,22 @@
+[
+  {
+    "IATA1": "CAI",
+    "AirportName1": "Cairo",
+    "Country1":"Egypt",
+    "City1":"Cairo",
+    "Type1": "3",
+    "Station1": "1",
+    "IATA": "sbt",
+      "AirportName": "Cairo",
+      "Country":"Egypt",
+      "City":"Cairo",
+      "Station": "3",
+      "Latitude": "11.1",
+      "Longitude": "111.2",
+      "Don't display to(POS)": "egypt",
+      "Near by airport" : " Near by airport ",
+      "Supplier Whitelist": "1",
+      "Supplier Blacklist": "1",
+      "url":"http://192.168.1.90/master/flight/airport"
+  }
+]

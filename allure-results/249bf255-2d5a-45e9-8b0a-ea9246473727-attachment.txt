@@ -1,0 +1,19 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 3' test cases in the current suite                                        
+                                   Test Method: 'AdminPages.RuleEngine.FareRules.FareRulesTCs.SearchFareRule'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "SearchBooking.json"". @07-08-2025 15:05:32.0093 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SearchBooking.json"". @07-08-2025 15:05:32.0094 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SearchBooking.json"". @07-08-2025 15:05:32.0094 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/SearchBooking.json". @07-08-2025 15:05:32.0095 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @07-08-2025 15:05:32.0097 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:32.0280 PM
+[ReportManager] Click "dropdown trigger". @07-08-2025 15:05:32.0428 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:32.0619 PM
+[ReportManager] Click "AirArbia". @07-08-2025 15:05:32.0688 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:32.0883 PM
+[ReportManager] Click "By.xpath: (//div[@class='p-radiobutton-box'])[1]". @07-08-2025 15:05:32.0946 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:33.0130 PM
+[ReportManager] Click "Search in grid". @07-08-2025 15:05:33.0196 PM

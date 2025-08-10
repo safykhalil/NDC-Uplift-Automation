@@ -1,0 +1,9 @@
+{
+  "validData": {
+    "FareName": "ahmedRefat",
+    "Description": "Test Fare Rule",
+    "ValidityFrom": "14/01/2040",
+    "ValidityTo": "14/01/2040",
+    "Remark": "Test Fare Rule"
+  }
+}

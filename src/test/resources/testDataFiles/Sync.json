@@ -1,0 +1,14 @@
+{
+  "validDataNoOutput": {
+    "fromDate": "01/01/2025",
+    "toDate": "28/02/2025"
+  },
+  "validData": {
+    "fromDate": "01/03/2025",
+    "toDate": "16/03/2025",
+    "orderId": "BRN2TESORD250304DHJFTQ",
+    "FBBookinQrefNo": "NDCEG-BR-F250304ZODGiw",
+    "errorMessage": "Required",
+    "noDataMessage": "No data has been found!"
+  }
+}

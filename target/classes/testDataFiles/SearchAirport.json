@@ -1,0 +1,10 @@
+[
+  {
+    "IATA": "CAI",
+    "AirportName": "Cairo",
+    "Country":"Egypt",
+    "City":"Cairo",
+    "Type": "3",
+    "Station": "1"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "DataEnterForDropDown": "Saf",
+    "AgencyName": "safya",
+    "Name" : "safy",
+    "Phone" : "01000000000",
+    "Email" : "s.khalil@tildetech.ae",
+    "InvalidEmail": "fngg44567891",
+    "Alert" : "Updated Successfully",
+    "Invalid Phone Number" : "Invalid Phone Number",
+    "Please enter valid email" : "Please enter valid email",
+    "AnotherName": "muh"
+  }
+]

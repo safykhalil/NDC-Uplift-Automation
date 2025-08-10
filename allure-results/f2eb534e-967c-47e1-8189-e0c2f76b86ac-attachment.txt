@@ -1,0 +1,45 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 3' test cases in the current suite                                        
+                                   Test Method: 'AdminPages.RuleEngine.FareRules.FareRulesTCs.createFareRule'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "SearchBooking.json"". @07-08-2025 15:05:16.0666 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SearchBooking.json"". @07-08-2025 15:05:16.0666 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SearchBooking.json"". @07-08-2025 15:05:16.0667 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/SearchBooking.json". @07-08-2025 15:05:16.0667 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @07-08-2025 15:05:17.0411 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:17.0625 PM
+[ReportManager] Click "Rule Engine". @07-08-2025 15:05:17.0708 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:19.0265 PM
+[ReportManager] Click "Fare Rule Master". @07-08-2025 15:05:19.0454 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:20.0456 PM
+[ReportManager] Click "Add Fare Rules ". @07-08-2025 15:05:20.0582 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:20.0831 PM
+[ReportManager] Click "dropdown trigger". @07-08-2025 15:05:21.0021 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:21.0261 PM
+[ReportManager] Click "AirArbia". @07-08-2025 15:05:21.0447 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/FareRule.json"". @07-08-2025 15:05:21.0449 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/FareRule.json"". @07-08-2025 15:05:21.0450 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/FareRule.json"". @07-08-2025 15:05:23.0047 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/FareRule.json"". @07-08-2025 15:05:23.0047 PM
+[ReportManager] Type "14/01/2040" into "Validity From *". @07-08-2025 15:05:23.0294 PM
+[ReportManager] Type "14/01/2040" into "Validity To *". @07-08-2025 15:05:23.0679 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:23.0946 PM
+[ReportManager] Click "By.xpath: (//button[@type='button'][@tabindex='0'])[2]". @07-08-2025 15:05:24.0109 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:24.0347 PM
+[ReportManager] Click "By.xpath: (//span[@class='dropdown-arrow'])[1]". @07-08-2025 15:05:24.0459 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:24.0704 PM
+[ReportManager] Click "By.xpath: (//input[@type='checkbox'])[1]". @07-08-2025 15:05:24.0836 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:25.0079 PM
+[ReportManager] Click "By.xpath: (//span[@class='dropdown-arrow'])[2]". @07-08-2025 15:05:25.0261 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:25.0590 PM
+[ReportManager] Click "By.xpath: (//input[@type='checkbox'])[1]". @07-08-2025 15:05:25.0823 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/FareRule.json"". @07-08-2025 15:05:25.0824 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/FareRule.json"". @07-08-2025 15:05:25.0825 PM
+[ReportManager] Type "ahmedRefat" into "fare Rule name *". @07-08-2025 15:05:26.0190 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/FareRule.json"". @07-08-2025 15:05:26.0191 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/FareRule.json"". @07-08-2025 15:05:26.0192 PM
+[ReportManager] Type "Test Fare Rule" into "By.xpath: //div[@class='ql-editor ql-blank']". @07-08-2025 15:05:26.0550 PM
+[ReportManager] Moved the mouse to the middle of the element. @07-08-2025 15:05:26.0806 PM
+[ReportManager] Click "Send For Approval". @07-08-2025 15:05:26.0944 PM

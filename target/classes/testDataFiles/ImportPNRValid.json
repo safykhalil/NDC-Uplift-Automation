@@ -1,0 +1,11 @@
+[
+  {
+    "Branch" : "Ramadan",
+    "AGN" : "All",
+    "FromDate": "5",
+    "ToDate" : "20",
+    "InvalidStartDate61" : "6",
+    "InvalidEndDate61" : "15"
+
+  }
+]

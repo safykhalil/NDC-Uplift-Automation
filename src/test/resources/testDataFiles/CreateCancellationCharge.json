@@ -1,0 +1,14 @@
+[
+  {
+    "CancellationChargeName": "CAs",
+    "CancellationChargeDescription": "TEST",
+    "ValidityPeriodFrom": "10",
+    "ValidityPeriodTo": "29",
+    "CountryPos": " United Arab Emirates ",
+    "FareType": "Total Fare",
+    "Adult": "1",
+    "Child": "1",
+    "Infant": "1"
+
+  }
+]

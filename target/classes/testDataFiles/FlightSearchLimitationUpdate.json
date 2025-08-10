@@ -1,0 +1,13 @@
+[
+  {
+    "IndexChoose": "4",
+    "TypeName" : "Ama",
+    "Name": "Amadeus",
+    "InvalidIndex" :"No data has been found!",
+    "InvalidType": "j",
+    "Edit" : "Updated Successfully",
+    "AnotherIndexChoose" : "5",
+    "IndexInSearch" : "2",
+    "IndexSupplierCredential" : "6"
+  }
+]
