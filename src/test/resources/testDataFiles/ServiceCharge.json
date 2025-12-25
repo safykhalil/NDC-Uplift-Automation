@@ -1,0 +1,25 @@
+{
+  "Set1": {
+  "ServiceChargeName": "NewService55",
+  "ValidityFrom": "08/01/2026",
+  "ValidityTo": "08/01/2030",
+  "ServiceChargeDescription": "Test Service Charge",
+  "CountryPOS": "Egypt",
+  "Branch": "Test",
+  "Value": "50"
+},
+  "SearchSet1": {
+    "Country": "Egypt",
+    "Branch": "Test"
+  },
+  "Actions": {
+    "servicename": "NewService55",
+    "remark": "shalaby"
+  },
+  "Update": {
+    "name" : "NewService55",
+    "ServicechargeName": "NewService55",
+    "ServicechargeDescription": "New Service Charge",
+"remark": "shalaby"
+  }
+}

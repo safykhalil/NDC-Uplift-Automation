@@ -1,0 +1,13 @@
+{
+  "validDataNoOutput": {
+    "fromDate": "01/01/2025",
+    "toDate": "28/02/2025"
+  },
+  "validData": {
+    "To_Date": "01/09/2024",
+    "From_Date": "30/09/2024",
+    "invoiceNumber":"INVNDC240917mZk1Q1",
+    "customerName":"ahmed sayed",
+    "bookingReference":"NDCEG-BR-F240917Holety"
+  }
+}

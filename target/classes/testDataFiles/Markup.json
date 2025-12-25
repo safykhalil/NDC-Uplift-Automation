@@ -1,0 +1,37 @@
+{
+  "Set1": {
+    "MarkupName": "Automation Markup 3214502",
+    "MarkupDis": "Description 1",
+    "validityFrom": "15",
+    "validityTo": "19",
+    "Country": "Egypt",
+    "Branch": "Test",
+    "Agency": "Test Egypt",
+    "Attribute": "Supplier",
+    "Operator": "IN",
+    "Value": "All",
+    "Faretype": "Total Fare",
+    "Amounttype": "Percentage",
+    "AmountValue": "10"
+  },
+
+  "SearchSet1": {
+    "Country": "Egypt",
+    "Branch": "Test"
+  },
+  "Actions" : {
+    "markupname" : "Automation Markup 6903699",
+    "remark" : "shalaby"
+  },
+
+  "UpdateSet1": {
+    "name": "Automation Markup 3214502",
+    "MarkupName": "Automation Markup 6903699",
+    "MarkupDis": "Description Markup = 100",
+    "Validityfrom": "16",
+    "ValidityTo": "19",
+    "Amounttype": "Amount",
+    "AmountValue": "100",
+    "Remarks": "Update By Shalaby"
+  }
+}

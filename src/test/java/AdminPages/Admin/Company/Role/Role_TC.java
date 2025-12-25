@@ -1,0 +1,166 @@
+package AdminPages.Admin.Company.Role;
+
+import AdminPages.Admin.AdminMenu;
+import AdminPages.Admin.Staff.ActionStaff_TC;
+import AdminPages.Admin.Staff.CreateStaff_TC;
+import AdminPages.Admin.Staff_Page;
+import AdminPages.Login.LogIn_Page;
+import AdminPages.Login.TestBase_TC;
+import Drive_Factory.CommonMethod;
+import com.shaft.driver.SHAFT;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+import utilities.DataUtils;
+import utilities.GmailReaderUtil;
+import utilities.JsonDataUtil;
+
+import java.io.IOException;
+import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Role_TC {
+    private SHAFT.TestData.JSON testData;
+    SHAFT.GUI.WebDriver driver;
+    private Staff_Page addStaff;
+
+    @BeforeClass
+    public void login(){
+        testData = new SHAFT.TestData.JSON("Role.json");
+        CommonMethod.setupDriver(DataUtils.get("browser"));
+        driver = CommonMethod.getDriver();
+        driver.browser().navigateToURL(DataUtils.get("baseURL"));
+
+        new LogIn_Page(driver).AdminLogin();
+        new AdminMenu(driver).openSubAdmin().Company().Role();
+    }
+
+
+    @Test
+    public void verifyThatUserCanCreateRoleWithViewOnly(){
+        new Role_Page(driver).ClickAddRole()
+                .EnterAddRoleName(testData.getTestData("validData.roleName"))
+                .ClickIsViewAtAllFields()
+                .ClickSendForApprove();
+    }
+    @Test
+    public void verifyThatUserCanCreateRoleWithEditOnly(){
+        new Role_Page(driver).ClickAddRole()
+                .EnterAddRoleName(testData.getTestData("validData.roleName"))
+                .ClickIsEditAtAllFields()
+                .ClickSendForApprove();
+    }
+    @Test
+    public void verifyThatUserCanCreateRoleWithAprrovalOnly(){
+        new Role_Page(driver).ClickAddRole()
+                .EnterAddRoleName(testData.getTestData("validData.roleName"))
+                .ClickIsApproveAtAllFields()
+                .ClickSendForApprove();
+    }
+//    @Test
+//    public void verifyThatUserCanSearchWithRoleName(){
+//        new Role_Page(driver).EnterRoleName(testData.getTestData("validData.roleName"))
+//                .ClickInactive()
+//                .ClickSearch()
+//                .VerifyTheRoleName();
+//    }
+    @Test
+    public void verifyThatUserCanSearchWithRoleNameAndApproveTheRole(){
+        new Role_Page(driver).EnterRoleName(testData.getTestData("validData.roleName"))
+                .ClickInactive()
+                .ClickSearch()
+                .VerifyTheRoleName()
+                .ClickApprove()
+                .EnterRemarkText("validData.Remark")
+                .ClickSubmit();
+    }
+
+    @Test
+    public void CreateRoleWithViewPermessionAndCreateStaffAndLoginWithIt() throws InterruptedException {
+        addStaff = new Staff_Page(driver);
+        Map<String,String> st = new HashMap<>();
+        st.put("Usertype", testData.getTestData("validData.Usertype"));
+        st.put("SearchOperatingCountry" , testData.getTestData("validData.SearchOperatingCountry"));
+        st.put("SearchBranch", testData.getTestData("validData.SearchBranch"));
+        st.put("SearchDepartment", testData.getTestData("validData.SearchDepartment"));
+        st.put("SearchRole", testData.getTestData("validData.SearchRole"));
+        st.put("EmployeeName", testData.getTestData("validData.EmployeeName"));
+        st.put("EmployeeEmail", testData.getTestData("validData.EmployeeEmail"));
+        st.put("EmployeePhoneNo", testData.getTestData("validData.EmployeePhoneNo"));
+        st.put("EmployeeSecondaryNo", testData.getTestData("validData.EmployeeSecondaryNo"));
+        st.put("UserName", testData.getTestData("validData.UserName"));
+        st.put("ApprovalList", testData.getTestData("validData.ApprovalList"));
+
+        verifyThatUserCanCreateRoleWithViewOnly();
+        verifyThatUserCanSearchWithRoleNameAndApproveTheRole();
+        new ActionStaff_TC().CreateStaff(driver,st);
+        new LogIn_Page(driver).ClickOnLogOuTButton();
+    }
+    @Test(dependsOnMethods = "CreateRoleWithViewPermessionAndCreateStaffWithIt")
+    public void VerifyThatUserHasHisPermissionOnly() throws InterruptedException {
+        Thread.sleep(30000);
+        new LogIn_Page(driver).ClickUser(testData.getTestData("validData.Userame"),(testData.getTestData("validData.Password")));
+        new LogIn_Page(driver).ClickOnLoginButton();
+        new Role_Page(driver).verifyUserHasPermissionsViewOnly();
+    }
+    @Test
+    public void CreateRoleWithEditAndVeiwPermessionAndCreateStaffAndLoginWithIt() throws InterruptedException {
+        addStaff = new Staff_Page(driver);
+        Map<String,String> st = new HashMap<>();
+        st.put("Usertype", testData.getTestData("validData.Usertype"));
+        st.put("SearchOperatingCountry" , testData.getTestData("validData.SearchOperatingCountry"));
+        st.put("SearchBranch", testData.getTestData("validData.SearchBranch"));
+        st.put("SearchDepartment", testData.getTestData("validData.SearchDepartment"));
+        st.put("SearchRole", testData.getTestData("validData.SearchRole"));
+        st.put("EmployeeName", testData.getTestData("validData.EmployeeName"));
+        st.put("EmployeeEmail", testData.getTestData("validData.EmployeeEmail"));
+        st.put("EmployeePhoneNo", testData.getTestData("validData.EmployeePhoneNo"));
+        st.put("EmployeeSecondaryNo", testData.getTestData("validData.EmployeeSecondaryNo"));
+        st.put("UserName", testData.getTestData("validData.UserName"));
+        st.put("ApprovalList", testData.getTestData("validData.ApprovalList"));
+
+        verifyThatUserCanCreateRoleWithEditOnly();
+        verifyThatUserCanSearchWithRoleNameAndApproveTheRole();
+        new ActionStaff_TC().CreateStaff(driver,st);
+        new LogIn_Page(driver).ClickOnLogOuTButton();
+        Thread.sleep(30000);
+        new LogIn_Page(driver).ClickUser(testData.getTestData("validData.Userame"),(testData.getTestData("validData.Password")));
+        new LogIn_Page(driver).ClickOnLoginButton();
+        new Role_Page(driver).verifyUserHasPermissionsViewAndEdit();
+    }
+    @Test
+    public void CreateRoleWithApproveAndVeiwPermessionAndCreateStaffAndLoginWithIt() throws InterruptedException {
+        addStaff = new Staff_Page(driver);
+        Map<String,String> st = new HashMap<>();
+        st.put("Usertype", testData.getTestData("validData.Usertype"));
+        st.put("SearchOperatingCountry" , testData.getTestData("validData.SearchOperatingCountry"));
+        st.put("SearchBranch", testData.getTestData("validData.SearchBranch"));
+        st.put("SearchDepartment", testData.getTestData("validData.SearchDepartment"));
+        st.put("SearchRole", testData.getTestData("validData.SearchRole"));
+        st.put("EmployeeName", testData.getTestData("validData.EmployeeName"));
+        st.put("EmployeeEmail", testData.getTestData("validData.EmployeeEmail"));
+        st.put("EmployeePhoneNo", testData.getTestData("validData.EmployeePhoneNo"));
+        st.put("EmployeeSecondaryNo", testData.getTestData("validData.EmployeeSecondaryNo"));
+        st.put("UserName", testData.getTestData("validData.UserName"));
+        st.put("ApprovalList", testData.getTestData("validData.ApprovalList"));
+        verifyThatUserCanCreateRoleWithAprrovalOnly();
+        verifyThatUserCanSearchWithRoleNameAndApproveTheRole();
+        new ActionStaff_TC().CreateStaff(driver,st);
+        new LogIn_Page(driver).ClickOnLogOuTButton();
+        Thread.sleep(30000);
+
+        new LogIn_Page(driver).ClickUser(testData.getTestData("validData.Userame"),(testData.getTestData("validData.Password")));
+        //new LogIn_Page(driver).ClickUser(mUser.toString(),mPass.toString());
+        new LogIn_Page(driver).ClickOnLoginButton();
+        new Role_Page(driver).verifyUserHasPermissionsViewAndApprove();
+    }
+//    @Test
+//    public void send(){
+//        String s = GmailReaderUtil.getLatestEmail("ahmedref124@gmail.com","gljl enks vept uiwv");
+//        System.out.println(s);
+//    }
+}

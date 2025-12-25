@@ -1,0 +1,10 @@
+[
+  {
+   "BranchName": "Test",
+    "AgencyName": "Test Egypt",
+    "TopUpAmount": "1500",
+    "PaymentType": "bankTransfer",
+    "Remarks": "hello"
+
+  }
+]

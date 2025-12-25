@@ -1,0 +1,18 @@
+[
+  {
+    "BranchName": "Test",
+    "AgencyName": "All",
+    "Email":"",
+    "FromBookingDate": "01/11/2024",
+    "ToBookingDate": "10/12/2024",
+    "ClientName": "",
+    "PhoneNumber": "",
+    "TripsStartDate": "30/05/2025",
+    "TripsReturnDate": "30/05/2025",
+    "InvoiceNumber": "INVNDC250410jxYaY9",
+    "BookingReference": "NDCEG-BR-F2504109LXjJY",
+    "AirlinePNR": "",
+    "TicketNumber":"",
+    "TicketStatus": "Booked"
+  }
+]

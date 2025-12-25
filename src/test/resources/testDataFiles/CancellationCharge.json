@@ -1,0 +1,33 @@
+{
+  "Create": {
+    "Name": "bassem",
+    "Description": "ali",
+    "ValidityPeriodFrom": "25",
+    "ValidityPeriodTo": "27",
+    "CountryPos": " United Arab Emirates ",
+    "FareType": "Total Fare",
+    "Adult": "1",
+    "Child": "1",
+    "Infant": "1"
+  },
+
+  "Search": {
+    "Name": "bassem",
+    "Country": "Egypt"
+  },
+
+  "Update": {
+    "Name": "updated",
+    "Description": "new",
+    "ValidityPeriodFrom": "24",
+    "ValidityPeriodTo": "27",
+    "CountryPos": " United Arab Emirates ",
+    "FareType": "Base Fare",
+    "Adult": "2",
+    "Child": "2",
+    "Infant": "2"
+  }
+}
+
+
+

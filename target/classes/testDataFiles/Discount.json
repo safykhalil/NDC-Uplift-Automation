@@ -1,0 +1,37 @@
+{
+  "Set1": {
+    "discountName": "Automation Discount30205211",
+    "discountDis": "Description 1",
+    "validityFrom": "22",
+    "validityTo": "19",
+    "Country": "Egypt",
+    "Branch": "Test",
+    "Agency": "Test Egypt",
+    "Attribute": "Supplier",
+    "Operator": "IN",
+    "Value": "All",
+    "Faretype": "Total Fare",
+    "Amounttype": "Percentage",
+    "AmountValue": "10"
+  },
+
+  "SearchSet1": {
+    "Country": "Egypt",
+    "Branch": "Test"
+  },
+  "Actions" : {
+    "discountname" : "Automation Discount 232102",
+    "remark" : "shalaby"
+  },
+
+  "UpdateSet1": {
+    "name": "Automation Discount30205211",
+    "discountName": "Automation Discount 232102",
+    "discountDis": "Description Discount = 100",
+    "Validityfrom": "23",
+    "ValidityTo": "19",
+    "Amounttype": "Amount",
+    "AmountValue": "100",
+    "Remarks": "Update By Shalaby"
+  }
+}
