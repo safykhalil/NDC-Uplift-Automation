@@ -21,7 +21,7 @@ public class Discount_Page {
     /*Add markup*/
     private final By txt_DiscountName = By.xpath("//input[@id=\"id-DiscountName\"]");
     private final By txt_DiscountDisc = By.xpath("//textarea[@placeholder=\"Discount Description\"]");
-    private final By Dpick_Validityfrom = By.xpath("(//button[@type=\"button\"])[3]");
+    private final By Dpick_Validityfrom = By.xpath("(//button)[4]");
     //  private final By Select_Date = By.xpath("//span[@class=\"p-ripple p-element ng-tns-c52-7 ng-star-inserted\"]");
     private final By Dpick_ValidityTo = By.xpath("//input[@id='id-ValidityPeriodTo']");
     private final By Lst_CountryPosForAdd = By.xpath("//p-multiselect[.//input[@id=\"id-CountryPOS\"]]");
@@ -184,7 +184,7 @@ public class Discount_Page {
         driver.element().type(txt_DiscountName, discountName)
                 .type(txt_DiscountDisc, discountDis);
         driver.element().click(Dpick_Validityfrom);
-        driver.element().click(After);
+       // driver.element().click(After);
         By option12 = xpath(String.format("//span[contains(text(), '%s')]", validityFrom));
         driver.element().click(option12);
         driver.element().click(Dpick_ValidityTo);
